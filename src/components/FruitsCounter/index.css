@@ -1,0 +1,42 @@
+/* Write your CSS here */
+.container {
+  background-color: #ffd569;
+}
+
+.main-container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: 20%;
+  background-color: #ffffff;
+  border-radius: 20px;
+  flex-direction: column;
+}
+
+.heading {
+  color: #000000;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.count {
+  color: #ffd569;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.image {
+  height: 500px;
+  width: 450px;
+}
+
+.button {
+  background-color: #007bff;
+  color: #ffffff;
+  height: 30px;
+  padding: 20px;
+}
